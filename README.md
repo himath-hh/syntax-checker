@@ -23,20 +23,16 @@ This project implements a simple **lexical analyzer** and **syntax checker** for
 
 ## How to Run
 
-1. **Compile all files:**
+**Run the Syntax Checker with a test input:**
 
    ```bash
-   javac *.java
+   java -jar SyntaxChecker.jar
    ```
 
-2. **Run the Syntax Checker with a test input:**
-
-   ```bash
-   java SyntaxChecker
-   ```
    *proceed to provide the path of the file.*
 
    If the input is correct, you will see:
+
    ```
    No syntax errors detected.
    ```
@@ -49,7 +45,6 @@ This project implements a simple **lexical analyzer** and **syntax checker** for
 - **Identifiers**: Variable names (e.g., `var1`, `total`)
 - **Operators**: `+`, `-`, `=`, `<`, `>`
 - **Punctuation**: `(`, `)`, `;`
-
 
 ## Language Grammar
 
